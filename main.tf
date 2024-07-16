@@ -14,8 +14,8 @@ terraform {
 
 
 module "terraform-testscalr" {
-  source  = "/home/abhijith/terraform-testscalr/test-scalr"
-  version="1.0.0"
+  source  = "./test-scalr"
+  
 
 
 }
