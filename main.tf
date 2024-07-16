@@ -10,11 +10,3 @@ terraform {
   }
 }
 
-
-
-
-module "terraform-multicloud-testscalr" {
-  source  = "https://github.com/gurumurthy974/terraform-multicloud-testscalr.git"
-  version="1.0.0"
-  
-}
