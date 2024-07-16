@@ -14,8 +14,6 @@ terraform {
 
 
 module "terraform-testscalr" {
-  source  = "./test-scalr"
+  source  = "https://github.com/gurumurthy974/terraform-multicloud-testscalr.git"
   
-
-
 }
